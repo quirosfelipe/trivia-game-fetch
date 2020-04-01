@@ -1,0 +1,52 @@
+body {
+    background-color : rgb(140, 238, 237);
+    padding: 15em;
+}
+h1 {
+    color: rgb(127, 206, 215);
+    display: flex;
+    justify-content: center;
+}
+#button-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+#game-board{
+    display: flex;
+    flex-direction: column;
+    width : 600px;
+    margin:auto;
+    padding: 2em;
+    background-color: white;
+    background-color: antiquewhite;
+    
+}
+#score {
+    font-size: 1.5em;
+    margin: 1.25em 0;
+}
+
+#answer {
+    font-size: 1.5em;
+    margin: 1.25em 0;
+}
+#value {
+    font-size: 1.25em;
+    margin: 1.25em 0;
+}
+#category-title{
+    font-size: 1em;
+    margin: 1.25em 0;
+}
+#invalid-count{
+    font-size: 1em;
+    margin: 1.25em 0;
+}
+#question{
+    font-size: 1.25em;
+    margin: 1.25em 0;
+}
+.is-hidden{
+    display: none;
+    
+}
